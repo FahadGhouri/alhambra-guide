@@ -1,33 +1,7 @@
 [
   {
-    "id": "puerta-granadas",
-    "order": 1,
-    "name_en": "Gate of the Pomegranates",
-    "name_es": "Puerta de las Granadas",
-    "area": "Approach (free zone)",
-    "time_min": 5,
-    "status": "open",
-    "history": "A 1536 triumphal arch by Pedro Machuca, the same architect as the Palace of Charles V, built over the old Nasrid Bab al-Bunud (Gate of the Standards). It marks the point where the city ends and the Alhambra's woodland begins — Charles V announcing his ground in Roman-imperial style.",
-    "architecture": [
-      "A heavy rusticated Tuscan triumphal arch, Serlian in manner: one central round arch flanked by pilasters.",
-      "A broken pediment crowned with three carved pomegranates — granada, the punning heraldic emblem of the conquered kingdom.",
-      "Two reclining figures (Peace and Abundance) flank the imperial coat of arms above the arch."
-    ],
-    "look_for": [
-      "The three pomegranates on top, each split open — the emblem of Granada.",
-      "The imperial double-headed eagle and Charles V's arms above the arch.",
-      "Just past the arch the path forks three ways: left/uphill to the Puerta de la Justicia (your route), centre to the ticket pavilion road, right to the Torres Bermejas.",
-      "The water channels running down both sides of the Cuesta de Gomérez, fed from the same 14th-century acequia system that feeds the palaces.",
-      "The Pilar de Carlos V fountain at the fork (1545, also by Machuca) — drinkable water, good spot to fill bottles before the climb."
-    ],
-    "photos": [
-      { "src": "photos/puerta-granadas-1.jpg", "caption": "Puerta de las Granadas", "credit": "José Luis Filpo Cabana, CC BY 4.0" },
-      { "src": "photos/puerta-granadas-2.jpg", "caption": "Puerta de las Granadas, detail", "credit": "Palickap, CC BY-SA 4.0" }
-    ]
-  },
-  {
     "id": "puerta-justicia",
-    "order": 2,
+    "order": 1,
     "name_en": "Gate of Justice",
     "name_es": "Puerta de la Justicia (Bāb al-Sharī'a)",
     "area": "Entrance",
@@ -48,13 +22,22 @@
       "This gate is in shade in the early morning — good time for a photo of the arch from below with the Virgin included."
     ],
     "photos": [
-      { "src": "photos/puerta-justicia-1.jpg", "caption": "Puerta de la Justicia, outer horseshoe arch", "credit": "José Luis Filpo Cabana, CC BY 4.0" },
-      { "src": "photos/puerta-justicia-2.jpg", "caption": "Puerta de la Justicia", "credit": "Javi Guerra Hernando, CC BY-SA 4.0" }
-    ]
+      {
+        "src": "photos/puerta-justicia-1.jpg",
+        "caption": "Puerta de la Justicia, outer horseshoe arch",
+        "credit": "José Luis Filpo Cabana, CC BY 4.0"
+      },
+      {
+        "src": "photos/puerta-justicia-2.jpg",
+        "caption": "Puerta de la Justicia",
+        "credit": "Javi Guerra Hernando, CC BY-SA 4.0"
+      }
+    ],
+    "paper_ref": "1"
   },
   {
     "id": "puerta-vino",
-    "order": 3,
+    "order": 2,
     "name_en": "Wine Gate",
     "name_es": "Puerta del Vino (Bāb al-Khamra)",
     "area": "Plaza de los Aljibes",
@@ -74,13 +57,22 @@
       "A small plaque here commemorates Claude Debussy's 1913 piano prelude \"La Puerta del Vino,\" written after Manuel de Falla sent him a postcard of this gate. Debussy never visited Spain."
     ],
     "photos": [
-      { "src": "photos/puerta-vino-1.jpg", "caption": "Puerta del Vino, west façade", "credit": "Alberto-g-rovi, CC BY 3.0" },
-      { "src": "photos/puerta-vino-2.jpg", "caption": "Puerta del Vino", "credit": "Jebulon, CC0" }
-    ]
+      {
+        "src": "photos/puerta-vino-1.jpg",
+        "caption": "Puerta del Vino, west façade",
+        "credit": "Alberto-g-rovi, CC BY 3.0"
+      },
+      {
+        "src": "photos/puerta-vino-2.jpg",
+        "caption": "Puerta del Vino",
+        "credit": "Jebulon, CC0"
+      }
+    ],
+    "paper_ref": "55"
   },
   {
     "id": "aljibes-alcazaba",
-    "order": 4,
+    "order": 3,
     "name_en": "Cistern Square & the Alcazaba (exterior only)",
     "name_es": "Plaza de los Aljibes / La Alcazaba",
     "area": "Plaza de los Aljibes",
@@ -102,13 +94,22 @@
       "Look for earthquake damage to the merlons and battlements along the top — exactly what closed the tower."
     ],
     "photos": [
-      { "src": "photos/aljibes-alcazaba-1.jpg", "caption": "The Alcazaba, from Plaza de los Aljibes", "credit": "Jebulon, CC0" },
-      { "src": "photos/aljibes-alcazaba-2.jpg", "caption": "Torre de la Vela", "credit": "Jebulon, CC0" }
-    ]
+      {
+        "src": "photos/aljibes-alcazaba-1.jpg",
+        "caption": "The Alcazaba, from Plaza de los Aljibes",
+        "credit": "Jebulon, CC0"
+      },
+      {
+        "src": "photos/aljibes-alcazaba-2.jpg",
+        "caption": "Torre de la Vela",
+        "credit": "Jebulon, CC0"
+      }
+    ],
+    "paper_ref": "3 (Plaza de los Aljibes) · 4 (Alcazaba entrance) · 6 (Torre de la Vela)"
   },
   {
     "id": "mexuar",
-    "order": 5,
+    "order": 4,
     "name_en": "The Mexuar — your 08:30 entry point",
     "name_es": "Sala del Mexuar",
     "area": "Nasrid Palaces",
@@ -129,13 +130,22 @@
       "You get roughly 10 minutes of near-empty rooms right at 08:30 before the slot fills — move briskly here and spend the saved time in the Court of the Myrtles and Court of the Lions."
     ],
     "photos": [
-      { "src": "photos/mexuar-1.jpg", "caption": "Sala del Mexuar", "credit": "Jebulon, CC0" },
-      { "src": "photos/mexuar-2.jpg", "caption": "Mexuar tile dado (azulejos)", "credit": "Benjamin Smith, CC BY-SA 4.0" }
-    ]
+      {
+        "src": "photos/mexuar-1.jpg",
+        "caption": "Sala del Mexuar",
+        "credit": "Jebulon, CC0"
+      },
+      {
+        "src": "photos/mexuar-2.jpg",
+        "caption": "Mexuar tile dado (azulejos)",
+        "credit": "Benjamin Smith, CC BY-SA 4.0"
+      }
+    ],
+    "paper_ref": "18 (Mexuar Patio) — the Oratory next to it is 17"
   },
   {
     "id": "cuarto-dorado",
-    "order": 6,
+    "order": 5,
     "name_en": "Courtyard of the Golden Room & the Comares Façade",
     "name_es": "Patio del Cuarto Dorado",
     "area": "Nasrid Palaces",
@@ -156,13 +166,22 @@
       "Find \"Wa lā ghāliba illā Llāh\" (\"there is no victor but God\") repeated in the stucco panels and tile dado — your first hunt for the Nasrid motto."
     ],
     "photos": [
-      { "src": "photos/cuarto-dorado-1.jpg", "caption": "Comares Façade", "credit": "Benjamin Smith, CC BY-SA 4.0" },
-      { "src": "photos/cuarto-dorado-2.jpg", "caption": "The Nasrid motto carved in a window of the Cuarto Dorado", "credit": "Jebulon, CC0" }
-    ]
+      {
+        "src": "photos/cuarto-dorado-1.jpg",
+        "caption": "Comares Façade",
+        "credit": "Benjamin Smith, CC BY-SA 4.0"
+      },
+      {
+        "src": "photos/cuarto-dorado-2.jpg",
+        "caption": "The Nasrid motto carved in a window of the Cuarto Dorado",
+        "credit": "Jebulon, CC0"
+      }
+    ],
+    "paper_ref": "19 (Cuarto Dorado) — entrance to the palace is 16"
   },
   {
     "id": "patio-arrayanes",
-    "order": 7,
+    "order": 6,
     "name_en": "Court of the Myrtles",
     "name_es": "Patio de los Arrayanes (Patio de la Alberca)",
     "area": "Nasrid Palaces — Comares Palace",
@@ -184,13 +203,22 @@
       "Best light: early morning, sun low from the east, reflection perfect. By midday it's flat and packed."
     ],
     "photos": [
-      { "src": "photos/patio-arrayanes-1.jpg", "caption": "Court of the Myrtles, reflecting pool", "credit": "Tuxyso, CC BY-SA 3.0" },
-      { "src": "photos/patio-arrayanes-2.jpg", "caption": "Patio de los Arrayanes", "credit": "Benjamin Smith, CC BY-SA 4.0" }
-    ]
+      {
+        "src": "photos/patio-arrayanes-1.jpg",
+        "caption": "Court of the Myrtles, reflecting pool",
+        "credit": "Tuxyso, CC BY-SA 3.0"
+      },
+      {
+        "src": "photos/patio-arrayanes-2.jpg",
+        "caption": "Patio de los Arrayanes",
+        "credit": "Benjamin Smith, CC BY-SA 4.0"
+      }
+    ],
+    "paper_ref": "20 (Patio de Comares)"
   },
   {
     "id": "sala-barca",
-    "order": 8,
+    "order": 7,
     "name_en": "Hall of the Blessing (\"Hall of the Boat\")",
     "name_es": "Sala de la Barca",
     "area": "Nasrid Palaces — Comares Palace",
@@ -208,13 +236,22 @@
       "This room is the pressure-release chamber between the blazing courtyard and the dark throne room — the temperature and light drop is deliberate."
     ],
     "photos": [
-      { "src": "photos/sala-barca-1.jpg", "caption": "Sala de la Barca ceiling", "credit": "R Prazeres, CC BY-SA 4.0" },
-      { "src": "photos/sala-barca-2.jpg", "caption": "Sala de la Barca", "credit": "R Prazeres, CC BY-SA 4.0" }
-    ]
+      {
+        "src": "photos/sala-barca-1.jpg",
+        "caption": "Sala de la Barca ceiling",
+        "credit": "R Prazeres, CC BY-SA 4.0"
+      },
+      {
+        "src": "photos/sala-barca-2.jpg",
+        "caption": "Sala de la Barca",
+        "credit": "R Prazeres, CC BY-SA 4.0"
+      }
+    ],
+    "paper_ref": "21 (Sala de la Barca)"
   },
   {
     "id": "salon-embajadores",
-    "order": 9,
+    "order": 8,
     "name_en": "Hall of the Ambassadors (Throne Room)",
     "name_es": "Salón de Comares / Salón de Embajadores",
     "area": "Nasrid Palaces — Comares Tower",
@@ -234,13 +271,22 @@
       "From the Court of the Myrtles you can still see the tower's mass rising over the north portico — that view is this year's stop."
     ],
     "photos": [
-      { "src": "photos/salon-embajadores-1.jpg", "caption": "Salón de Embajadores (Hall of the Ambassadors)", "credit": "Benjamin Smith, CC BY-SA 4.0" },
-      { "src": "photos/salon-embajadores-2.jpg", "caption": "Comares Hall cedar dome", "credit": "R Prazeres, CC BY-SA 4.0" }
-    ]
+      {
+        "src": "photos/salon-embajadores-1.jpg",
+        "caption": "Salón de Embajadores (Hall of the Ambassadors)",
+        "credit": "Benjamin Smith, CC BY-SA 4.0"
+      },
+      {
+        "src": "photos/salon-embajadores-2.jpg",
+        "caption": "Comares Hall cedar dome",
+        "credit": "R Prazeres, CC BY-SA 4.0"
+      }
+    ],
+    "paper_ref": "22 (Comares Tower) — the Baths beside it are 23"
   },
   {
     "id": "patio-leones",
-    "order": 10,
+    "order": 9,
     "name_en": "Court of the Lions",
     "name_es": "Patio de los Leones",
     "area": "Nasrid Palaces — Palace of the Lions",
@@ -262,13 +308,22 @@
       "The east and west pavilions are not identical in detail — compare the capitals."
     ],
     "photos": [
-      { "src": "photos/patio-leones-1.jpg", "caption": "Fountain of the Lions", "credit": "José Luis Filpo Cabana, CC BY 3.0" },
-      { "src": "photos/patio-leones-2.jpg", "caption": "Court of the Lions", "credit": "Zarateman, CC0" }
-    ]
+      {
+        "src": "photos/patio-leones-1.jpg",
+        "caption": "Fountain of the Lions",
+        "credit": "José Luis Filpo Cabana, CC BY 3.0"
+      },
+      {
+        "src": "photos/patio-leones-2.jpg",
+        "caption": "Court of the Lions",
+        "credit": "Zarateman, CC0"
+      }
+    ],
+    "paper_ref": "30 (Patio de los Leones)"
   },
   {
     "id": "sala-abencerrajes",
-    "order": 11,
+    "order": 10,
     "name_en": "Hall of the Abencerrajes",
     "name_es": "Sala de los Abencerrajes",
     "area": "Nasrid Palaces — south of Court of the Lions",
@@ -287,13 +342,22 @@
       "Compare this vault with the matching one in the Sala de Dos Hermanas across the courtyard — the same idea, two different solutions."
     ],
     "photos": [
-      { "src": "photos/sala-abencerrajes-1.jpg", "caption": "Sala de los Abencerrajes, muqarnas vault", "credit": "Jebulon, CC0" },
-      { "src": "photos/sala-abencerrajes-2.jpg", "caption": "Sala de los Abencerrajes", "credit": "Alberto-g-rovi, CC BY 3.0" }
-    ]
+      {
+        "src": "photos/sala-abencerrajes-1.jpg",
+        "caption": "Sala de los Abencerrajes, muqarnas vault",
+        "credit": "Jebulon, CC0"
+      },
+      {
+        "src": "photos/sala-abencerrajes-2.jpg",
+        "caption": "Sala de los Abencerrajes",
+        "credit": "Alberto-g-rovi, CC BY 3.0"
+      }
+    ],
+    "paper_ref": "29 (Harem / Room of the Lions)"
   },
   {
     "id": "sala-reyes",
-    "order": 12,
+    "order": 11,
     "name_en": "Hall of the Kings",
     "name_es": "Sala de los Reyes",
     "area": "Nasrid Palaces — east of Court of the Lions",
@@ -311,13 +375,22 @@
       "The light is dim and the ceilings are high — use your phone's low-light mode, no flash, no tripod."
     ],
     "photos": [
-      { "src": "photos/sala-reyes-1.jpg", "caption": "Sala de los Reyes ceiling", "credit": "Benjamin Smith, CC BY-SA 4.0" },
-      { "src": "photos/sala-reyes-2.jpg", "caption": "Sala de los Reyes", "credit": "Benjamin Smith, CC BY-SA 4.0" }
-    ]
+      {
+        "src": "photos/sala-reyes-1.jpg",
+        "caption": "Sala de los Reyes ceiling",
+        "credit": "Benjamin Smith, CC BY-SA 4.0"
+      },
+      {
+        "src": "photos/sala-reyes-2.jpg",
+        "caption": "Sala de los Reyes",
+        "credit": "Benjamin Smith, CC BY-SA 4.0"
+      }
+    ],
+    "paper_ref": "31 (Sala de los Reyes)"
   },
   {
     "id": "sala-dos-hermanas",
-    "order": 13,
+    "order": 12,
     "name_en": "Hall of the Two Sisters",
     "name_es": "Sala de Dos Hermanas",
     "area": "Nasrid Palaces — north of Court of the Lions",
@@ -337,13 +410,22 @@
       "Compare this vault with the Abencerrajes vault directly opposite — same idea, two different solutions."
     ],
     "photos": [
-      { "src": "photos/sala-dos-hermanas-1.jpg", "caption": "Muqarnas dome, Sala de Dos Hermanas", "credit": "José Luis Filpo Cabana, CC BY-SA 4.0" },
-      { "src": "photos/sala-dos-hermanas-2.jpg", "caption": "Sala de Dos Hermanas", "credit": "Kolforn, CC BY-SA 4.0" }
-    ]
+      {
+        "src": "photos/sala-dos-hermanas-1.jpg",
+        "caption": "Muqarnas dome, Sala de Dos Hermanas",
+        "credit": "José Luis Filpo Cabana, CC BY-SA 4.0"
+      },
+      {
+        "src": "photos/sala-dos-hermanas-2.jpg",
+        "caption": "Sala de Dos Hermanas",
+        "credit": "Kolforn, CC BY-SA 4.0"
+      }
+    ],
+    "paper_ref": "29 (Harem / Room of the Lions — same paper number as the Abencerrajes hall, the guide doesn't split them)"
   },
   {
     "id": "mirador-lindaraja",
-    "order": 14,
+    "order": 13,
     "name_en": "Mirador de Lindaraja",
     "name_es": "Mirador de Lindaraja (de Daraxa)",
     "area": "Nasrid Palaces",
@@ -362,13 +444,22 @@
       "Notice how small and private this room is after the vast public courtyards — a room for one person, sitting down, looking at a valley."
     ],
     "photos": [
-      { "src": "photos/mirador-lindaraja-1.jpg", "caption": "Mirador de Lindaraja", "credit": "José Luis Filpo Cabana, CC BY 4.0" },
-      { "src": "photos/mirador-lindaraja-2.jpg", "caption": "Coloured-glass lantern ceiling", "credit": "José Luis Filpo Cabana, CC BY 4.0" }
-    ]
+      {
+        "src": "photos/mirador-lindaraja-1.jpg",
+        "caption": "Mirador de Lindaraja",
+        "credit": "José Luis Filpo Cabana, CC BY 4.0"
+      },
+      {
+        "src": "photos/mirador-lindaraja-2.jpg",
+        "caption": "Coloured-glass lantern ceiling",
+        "credit": "José Luis Filpo Cabana, CC BY 4.0"
+      }
+    ],
+    "paper_ref": "near 25 (Lindaraxa's Garden) — the mirador itself isn't separately numbered"
   },
   {
     "id": "emperor-chambers",
-    "order": 15,
+    "order": 14,
     "name_en": "Emperor's Chambers, Patio de Lindaraja & Patio de la Reja",
     "name_es": "Habitaciones del Emperador / Patio de Lindaraja / Patio de la Reja",
     "area": "Nasrid Palaces — Christian-era wing",
@@ -388,13 +479,22 @@
       "This whole area is where most visitors speed up because \"the palace is over.\" It's actually the quietest part of the Nasrid Palaces — slow down here."
     ],
     "photos": [
-      { "src": "photos/emperor-chambers-1.jpg", "caption": "Patio de Lindaraja", "credit": "Tuxyso, CC BY-SA 3.0" },
-      { "src": "photos/emperor-chambers-2.jpg", "caption": "Patio de la Reja", "credit": "Yair Haklai, CC BY-SA 4.0" }
-    ]
+      {
+        "src": "photos/emperor-chambers-1.jpg",
+        "caption": "Patio de Lindaraja",
+        "credit": "Tuxyso, CC BY-SA 3.0"
+      },
+      {
+        "src": "photos/emperor-chambers-2.jpg",
+        "caption": "Patio de la Reja",
+        "credit": "Yair Haklai, CC BY-SA 4.0"
+      }
+    ],
+    "paper_ref": "24 (Patio of the Cypresses) · 25 (Lindaraxa's Garden) · 27 (Charles V's Rooms) · 28 (Salas de las Frutas)"
   },
   {
     "id": "partal",
-    "order": 16,
+    "order": 15,
     "name_en": "El Partal & the Partal Gardens",
     "name_es": "El Partal / Palacio del Pórtico / Torre de las Damas",
     "area": "Partal",
@@ -414,13 +514,22 @@
       "The best place on the hill for a rest and water: shade, benches, few people, a view down over the Albaicín."
     ],
     "photos": [
-      { "src": "photos/partal-1.jpg", "caption": "El Partal, portico and pool", "credit": "Tuxyso, CC BY-SA 3.0" },
-      { "src": "photos/partal-2.jpg", "caption": "Torre de las Damas", "credit": "José Luis Filpo Cabana, CC BY 4.0" }
-    ]
+      {
+        "src": "photos/partal-1.jpg",
+        "caption": "El Partal, portico and pool",
+        "credit": "Tuxyso, CC BY-SA 3.0"
+      },
+      {
+        "src": "photos/partal-2.jpg",
+        "caption": "Torre de las Damas",
+        "credit": "José Luis Filpo Cabana, CC BY 4.0"
+      }
+    ],
+    "paper_ref": "35 (Torre de las Damas) · 38 (Partal Gardens) · 36 (Arab houses) · 37 (Tower of the Mihrab)"
   },
   {
     "id": "paseo-torres",
-    "order": 17,
+    "order": 16,
     "name_en": "Walk of the Towers",
     "name_es": "Paseo de las Torres (Torre de la Cautiva & Torre de las Infantas)",
     "area": "North wall",
@@ -439,13 +548,22 @@
       "Look up-right at the Generalife on the opposite hillside — you'll be there in twenty minutes."
     ],
     "photos": [
-      { "src": "photos/paseo-torres-1.jpg", "caption": "Torre de las Infantas", "credit": "R Prazeres, CC BY-SA 4.0" },
-      { "src": "photos/paseo-torres-2.jpg", "caption": "Torre de las Infantas, from the Generalife", "credit": "Jebulon, CC0" }
-    ]
+      {
+        "src": "photos/paseo-torres-1.jpg",
+        "caption": "Torre de las Infantas",
+        "credit": "R Prazeres, CC BY-SA 4.0"
+      },
+      {
+        "src": "photos/paseo-torres-2.jpg",
+        "caption": "Torre de las Infantas, from the Generalife",
+        "credit": "Jebulon, CC0"
+      }
+    ],
+    "paper_ref": "39 (Torre de los Picos) · 40 (Puerta del Arrabal) · 43 (Torre de la Cautiva) · 44 (Torre de las Infantas)"
   },
   {
     "id": "generalife-jardines-nuevos",
-    "order": 18,
+    "order": 17,
     "name_en": "Generalife: the New Gardens",
     "name_es": "Jardines Nuevos del Generalife",
     "area": "Generalife",
@@ -462,13 +580,22 @@
       "The name Generalife likely comes from Arabic jannat al-'arif, sometimes translated \"Garden of the Architect\" or \"Garden of the Artist\" — though a palace inscription actually names it Dār al-Mamlakat al-Sa'īda, \"House of the Felicitous Kingdom.\" It may simply have meant \"the Principal Orchard,\" because that's what it was: the royal farm."
     ],
     "photos": [
-      { "src": "photos/generalife-jardines-nuevos-1.jpg", "caption": "Jardines Nuevos, Generalife", "credit": "Kolforn, CC BY-SA 4.0" },
-      { "src": "photos/generalife-jardines-nuevos-2.jpg", "caption": "View of the Alhambra from the Generalife", "credit": "Martinvl, CC BY-SA 4.0" }
-    ]
+      {
+        "src": "photos/generalife-jardines-nuevos-1.jpg",
+        "caption": "Jardines Nuevos, Generalife",
+        "credit": "Kolforn, CC BY-SA 4.0"
+      },
+      {
+        "src": "photos/generalife-jardines-nuevos-2.jpg",
+        "caption": "View of the Alhambra from the Generalife",
+        "credit": "Martinvl, CC BY-SA 4.0"
+      }
+    ],
+    "paper_ref": "Generalife (the paper guide doesn't number individual spots inside it)"
   },
   {
     "id": "patio-acequia",
-    "order": 19,
+    "order": 18,
     "name_en": "Court of the Water Channel — the Generalife's highlight",
     "name_es": "Patio de la Acequia",
     "area": "Generalife",
@@ -489,13 +616,22 @@
       "The 1494 upper storey on the north pavilion is visibly a different building bolted on top."
     ],
     "photos": [
-      { "src": "photos/patio-acequia-1.jpg", "caption": "Patio de la Acequia", "credit": "Benjamin Smith, CC BY-SA 4.0" },
-      { "src": "photos/patio-acequia-2.jpg", "caption": "Patio de la Acequia, water channel", "credit": "Jebulon, CC0" }
-    ]
+      {
+        "src": "photos/patio-acequia-1.jpg",
+        "caption": "Patio de la Acequia",
+        "credit": "Benjamin Smith, CC BY-SA 4.0"
+      },
+      {
+        "src": "photos/patio-acequia-2.jpg",
+        "caption": "Patio de la Acequia, water channel",
+        "credit": "Jebulon, CC0"
+      }
+    ],
+    "paper_ref": "Generalife (not individually numbered on this map)"
   },
   {
     "id": "patio-sultana",
-    "order": 20,
+    "order": 19,
     "name_en": "Courtyard of the Sultana's Cypress",
     "name_es": "Patio del Ciprés de la Sultana",
     "area": "Generalife",
@@ -512,13 +648,22 @@
       "This spot pairs with the Sala de los Abencerrajes (Stop 11) — tell the massacre legend there, land the other half of the story here."
     ],
     "photos": [
-      { "src": "photos/patio-sultana-1.jpg", "caption": "Patio de la Sultana fountain", "credit": "Jebulon, CC0" },
-      { "src": "photos/patio-sultana-2.jpg", "caption": "Patio de la Sultana, detail", "credit": "Jebulon, CC0" }
-    ]
+      {
+        "src": "photos/patio-sultana-1.jpg",
+        "caption": "Patio de la Sultana fountain",
+        "credit": "Jebulon, CC0"
+      },
+      {
+        "src": "photos/patio-sultana-2.jpg",
+        "caption": "Patio de la Sultana, detail",
+        "credit": "Jebulon, CC0"
+      }
+    ],
+    "paper_ref": "Generalife (not individually numbered on this map)"
   },
   {
     "id": "escalera-agua",
-    "order": 21,
+    "order": 20,
     "name_en": "The Water Staircase & Upper Gardens",
     "name_es": "Escalera del Agua / Jardines Altos",
     "area": "Generalife",
@@ -538,13 +683,22 @@
       "Exit via the Paseo de las Adelfas (Oleander Walk), the tunnel of oleander that runs south-east and is the modern exit route."
     ],
     "photos": [
-      { "src": "photos/escalera-agua-1.jpg", "caption": "Escalera del Agua, Generalife", "credit": "Daderot, CC0" },
-      { "src": "photos/escalera-agua-2.jpg", "caption": "Paseo de las Adelfas", "credit": "Renata Frias, CC BY-SA 4.0" }
-    ]
+      {
+        "src": "photos/escalera-agua-1.jpg",
+        "caption": "Escalera del Agua, Generalife",
+        "credit": "Daderot, CC0"
+      },
+      {
+        "src": "photos/escalera-agua-2.jpg",
+        "caption": "Paseo de las Adelfas",
+        "credit": "Renata Frias, CC BY-SA 4.0"
+      }
+    ],
+    "paper_ref": "Generalife (not individually numbered on this map)"
   },
   {
     "id": "calle-real",
-    "order": 22,
+    "order": 21,
     "name_en": "Calle Real: Santa María de la Alhambra & the Mosque Baths",
     "name_es": "Calle Real de la Alhambra",
     "area": "Calle Real (free zone within the enclosure)",
@@ -563,13 +717,22 @@
       "The Parador's terrace and the Kiosko by the Puerta del Vino are essentially the only food and drink on the hill."
     ],
     "photos": [
-      { "src": "photos/calle-real-1.jpg", "caption": "Santa María de la Alhambra", "credit": "Tuxyso, CC BY-SA 3.0" },
-      { "src": "photos/calle-real-2.jpg", "caption": "Baño de la Mezquita, star skylights", "credit": "Daniel Villafruela, CC BY-SA 3.0" }
-    ]
+      {
+        "src": "photos/calle-real-1.jpg",
+        "caption": "Santa María de la Alhambra",
+        "credit": "Tuxyso, CC BY-SA 3.0"
+      },
+      {
+        "src": "photos/calle-real-2.jpg",
+        "caption": "Baño de la Mezquita, star skylights",
+        "credit": "Daniel Villafruela, CC BY-SA 3.0"
+      }
+    ],
+    "paper_ref": "56 (Santa María church) · 57 (Calle Real) · 58 (Arab Baths)"
   },
   {
     "id": "palacio-carlos-v",
-    "order": 23,
+    "order": 22,
     "name_en": "Palace of Charles V & the museums",
     "name_es": "Palacio de Carlos V",
     "area": "South of Plaza de los Aljibes",
@@ -590,13 +753,22 @@
       "In the Alhambra Museum, don't miss: the Vase of the Gazelles (Jarrón de las Gacelas), a 1.35 m 14th-century lustreware masterpiece; the two marble lions removed from the Partal pool you looked for earlier; the carved wooden door of the Sala de Dos Hermanas and original painted stucco panels — here you finally see Nasrid colour, which answers the question the whole visit has been raising."
     ],
     "photos": [
-      { "src": "photos/palacio-carlos-v-1.jpg", "caption": "Circular courtyard, Palace of Charles V", "credit": "José Luis Filpo Cabana, CC BY-SA 4.0" },
-      { "src": "photos/palacio-carlos-v-2.jpg", "caption": "West portal, Palace of Charles V", "credit": "José Luis Filpo Cabana, CC BY 4.0" }
-    ]
+      {
+        "src": "photos/palacio-carlos-v-1.jpg",
+        "caption": "Circular courtyard, Palace of Charles V",
+        "credit": "José Luis Filpo Cabana, CC BY-SA 4.0"
+      },
+      {
+        "src": "photos/palacio-carlos-v-2.jpg",
+        "caption": "West portal, Palace of Charles V",
+        "credit": "José Luis Filpo Cabana, CC BY 4.0"
+      }
+    ],
+    "paper_ref": "34"
   },
   {
     "id": "mirador-san-nicolas",
-    "order": 24,
+    "order": 23,
     "name_en": "Optional evening — Mirador de San Nicolás",
     "name_es": "Mirador de San Nicolás",
     "area": "Albaicín (outside the Alhambra, free)",
@@ -613,8 +785,17 @@
       "Quieter alternative a few minutes further up: Mirador de San Cristóbal, or the Alhambra viewpoint from the Sacromonte road."
     ],
     "photos": [
-      { "src": "photos/mirador-san-nicolas-1.jpg", "caption": "Alhambra at dusk from Mirador de San Nicolás", "credit": "Slaunger, CC BY-SA 3.0" },
-      { "src": "photos/mirador-san-nicolas-2.jpg", "caption": "View from Mirador de San Nicolás", "credit": "Diego Delso, CC BY-SA 4.0" }
-    ]
+      {
+        "src": "photos/mirador-san-nicolas-1.jpg",
+        "caption": "Alhambra at dusk from Mirador de San Nicolás",
+        "credit": "Slaunger, CC BY-SA 3.0"
+      },
+      {
+        "src": "photos/mirador-san-nicolas-2.jpg",
+        "caption": "View from Mirador de San Nicolás",
+        "credit": "Diego Delso, CC BY-SA 4.0"
+      }
+    ],
+    "paper_ref": "Not on this map — it's across the valley in the Albaicín"
   }
 ]

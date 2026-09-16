@@ -120,6 +120,7 @@
         ${stop.time_min ? `<span class="pill">⏱ ~${stop.time_min} min</span>` : ""}
         ${statusPill}
       </div>
+      ${stop.paper_ref ? `<div class="paper-ref">📖 Paper guide: <strong>${escapeHtml(stop.paper_ref)}</strong></div>` : ""}
       ${statusBanner}
       ${photosHtml ? `<div class="photo-scroll">${photosHtml}</div>` : ""}
       <div class="section-block">
@@ -166,6 +167,14 @@
     renderRail();
     renderStop();
     switchTab("route");
+  }
+
+  function shortPaperRef(text) {
+    if (!text) return "";
+    let t = text.split(" (")[0];
+    t = t.split(" · ")[0];
+    t = t.split(" — ")[0];
+    return t.trim();
   }
 
   function escapeHtml(s) {
@@ -239,9 +248,14 @@
     const legend = document.getElementById("map-legend");
     if (legend) {
       legend.innerHTML = nodes
-        .map(
-          (n) => `<button class="legend-item" data-stop="${n.id}"><span class="legend-num">${n.order}</span>${escapeHtml(n.label)}</button>`
-        )
+        .map((n) => {
+          const stop = state.stops.find((s) => s.id === n.id);
+          const ref = shortPaperRef(stop && stop.paper_ref);
+          return `<button class="legend-item" data-stop="${n.id}">
+            <span class="legend-num">${n.order}</span>
+            <span>${escapeHtml(n.label)}${ref ? `<span class="legend-ref">Paper guide: ${escapeHtml(ref)}</span>` : ""}</span>
+          </button>`;
+        })
         .join("");
       legend.querySelectorAll(".legend-item").forEach((btn) => {
         btn.addEventListener("click", () => {

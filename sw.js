@@ -1,4 +1,4 @@
-const CACHE = "alhambra-guide-v2";
+const CACHE = "alhambra-guide-v3";
 
 const CORE_ASSETS = [
   "./",
@@ -14,6 +14,8 @@ const CORE_ASSETS = [
   "icons/icon-512.png",
   "icons/icon-maskable-192.png",
   "icons/icon-maskable-512.png",
+  "photos/paper-map/west-alcazaba-palaces.jpg",
+  "photos/paper-map/east-generalife.jpg",
 ];
 
 // Requests under these paths rarely change once fetched — safe to serve
