@@ -32,11 +32,14 @@ html, body {
   background: var(--cream);
 }
 
-/* Top bar */
-.topbar {
+/* Header (topbar + tabbar), pinned together while scrolling */
+.app-header {
   position: sticky;
   top: 0;
   z-index: 20;
+}
+
+.topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -63,9 +66,6 @@ html, body {
 
 /* Tab bar */
 .tabbar {
-  position: sticky;
-  top: 0;
-  z-index: 19;
   display: flex;
   background: var(--terracotta-dark);
   border-bottom: 3px solid var(--ochre);

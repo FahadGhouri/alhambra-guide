@@ -16,20 +16,21 @@
 
 <div id="app">
 
-  <!-- Top bar -->
-  <header class="topbar">
-    <button id="btn-menu" class="icon-btn" aria-label="Menu">☰</button>
-    <div class="topbar-title" id="topbar-title">Alhambra Guide</div>
-    <button id="btn-map" class="icon-btn" aria-label="Map">🗺️</button>
-  </header>
+  <div class="app-header">
+    <!-- Top bar -->
+    <header class="topbar">
+      <div class="topbar-title" id="topbar-title">Alhambra Guide</div>
+      <button id="btn-map" class="icon-btn" aria-label="Map">🗺️</button>
+    </header>
 
-  <!-- Tab bar -->
-  <nav class="tabbar" id="tabbar">
-    <button class="tab active" data-tab="route">Route</button>
-    <button class="tab" data-tab="map">Map</button>
-    <button class="tab" data-tab="plan">Day Plan</button>
-    <button class="tab" data-tab="tips">Tips</button>
-  </nav>
+    <!-- Tab bar -->
+    <nav class="tabbar" id="tabbar">
+      <button class="tab active" data-tab="route">Route</button>
+      <button class="tab" data-tab="map">Map</button>
+      <button class="tab" data-tab="plan">Day Plan</button>
+      <button class="tab" data-tab="tips">Tips</button>
+    </nav>
+  </div>
 
   <!-- ROUTE VIEW -->
   <main id="view-route" class="view active">
