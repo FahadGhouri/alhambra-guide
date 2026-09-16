@@ -1,4 +1,4 @@
-const CACHE = "alhambra-guide-v1";
+const CACHE = "alhambra-guide-v2";
 
 const CORE_ASSETS = [
   "./",
@@ -15,6 +15,15 @@ const CORE_ASSETS = [
   "icons/icon-maskable-192.png",
   "icons/icon-maskable-512.png",
 ];
+
+// Requests under these paths rarely change once fetched — safe to serve
+// cache-first so offline browsing doesn't refetch large photo files.
+const STABLE_PATH_PREFIXES = ["photos/", "icons/"];
+
+function isStable(url) {
+  const path = new URL(url).pathname.replace(/^\//, "");
+  return STABLE_PATH_PREFIXES.some((p) => path.includes(p));
+}
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -49,20 +58,41 @@ self.addEventListener("fetch", (event) => {
   const req = event.request;
   if (req.method !== "GET") return;
 
+  // Stable assets (photos, icons): cache-first, so we don't re-download
+  // large files every visit once they're cached for offline use.
+  if (isStable(req.url)) {
+    event.respondWith(
+      (async () => {
+        const cached = await caches.match(req);
+        if (cached) return cached;
+        const res = await fetch(req);
+        if (res && res.status === 200) {
+          const cache = await caches.open(CACHE);
+          cache.put(req, res.clone());
+        }
+        return res;
+      })()
+    );
+    return;
+  }
+
+  // App shell + data (html/js/css/json): network-first, so a redeploy is
+  // picked up immediately when online, falling back to cache offline.
   event.respondWith(
     (async () => {
-      const cached = await caches.match(req);
-      if (cached) return cached;
       try {
         const res = await fetch(req);
-        if (res && res.status === 200 && res.type === "basic") {
+        if (res && res.status === 200) {
           const cache = await caches.open(CACHE);
           cache.put(req, res.clone());
         }
         return res;
       } catch (e) {
+        const cached = await caches.match(req);
+        if (cached) return cached;
         if (req.mode === "navigate") {
-          return caches.match("index.html");
+          const fallback = await caches.match("index.html");
+          if (fallback) return fallback;
         }
         throw e;
       }

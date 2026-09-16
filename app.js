@@ -101,13 +101,26 @@
         .join("") +
       "</ul>";
 
+    const statusPill =
+      stop.status === "closed"
+        ? `<span class="pill pill-closed">🔴 Closed</span>`
+        : stop.status === "partial"
+        ? `<span class="pill pill-partial">⚠️ Partly obscured</span>`
+        : "";
+
+    const statusBanner = stop.status_note
+      ? `<div class="status-banner ${stop.status === "closed" ? "banner-closed" : "banner-partial"}">${escapeHtml(stop.status_note)}</div>`
+      : "";
+
     el.innerHTML = `
       <div class="stop-eyebrow">${escapeHtml(stop.area || "")} · Stop ${stop.order} of ${state.stops.length}</div>
       <div class="stop-title">${escapeHtml(stop.name_en)}</div>
       <div class="stop-title-es">${escapeHtml(stop.name_es || "")}</div>
       <div class="stop-meta">
         ${stop.time_min ? `<span class="pill">⏱ ~${stop.time_min} min</span>` : ""}
+        ${statusPill}
       </div>
+      ${statusBanner}
       ${photosHtml ? `<div class="photo-scroll">${photosHtml}</div>` : ""}
       <div class="section-block">
         <h3>History &amp; Context</h3>
@@ -194,22 +207,21 @@
 
     (areas || []).forEach((a) => {
       svg += `<rect x="${a.x}" y="${a.y}" width="${a.w}" height="${a.h}" rx="6" fill="${a.fill || '#e8c77a'}" opacity="0.18"/>`;
-      svg += `<text x="${a.x + 3}" y="${a.y + 10}" class="map-node-label" font-size="4">${escapeHtml(a.label)}</text>`;
+      svg += `<text x="${a.x + 2}" y="${a.y + 4.5}" class="map-area-label" font-size="2.6">${escapeHtml(a.label)}</text>`;
     });
 
     (edges || []).forEach(([a, b]) => {
       const na = nodes.find((n) => n.id === a);
       const nb = nodes.find((n) => n.id === b);
       if (na && nb) {
-        svg += `<line x1="${na.x}" y1="${na.y}" x2="${nb.x}" y2="${nb.y}" stroke="#c9a24a" stroke-width="1.2" stroke-dasharray="2,2"/>`;
+        svg += `<line x1="${na.x}" y1="${na.y}" x2="${nb.x}" y2="${nb.y}" stroke="#c9a24a" stroke-width="1" stroke-dasharray="1.5,1.5"/>`;
       }
     });
 
     nodes.forEach((n) => {
       svg += `<g class="map-node" data-stop="${n.id}" style="cursor:pointer">
-        <circle cx="${n.x}" cy="${n.y}" r="4.2"/>
-        <text x="${n.x}" y="${n.y + 1.4}" text-anchor="middle">${n.order}</text>
-        <text class="map-node-label" x="${n.x}" y="${n.y + 8}" text-anchor="middle" font-size="3.3">${escapeHtml(n.label)}</text>
+        <circle cx="${n.x}" cy="${n.y}" r="3"/>
+        <text x="${n.x}" y="${n.y + 1}" text-anchor="middle" font-size="2.6">${n.order}</text>
       </g>`;
     });
 
@@ -223,6 +235,21 @@
         if (idx >= 0) goTo(idx);
       });
     });
+
+    const legend = document.getElementById("map-legend");
+    if (legend) {
+      legend.innerHTML = nodes
+        .map(
+          (n) => `<button class="legend-item" data-stop="${n.id}"><span class="legend-num">${n.order}</span>${escapeHtml(n.label)}</button>`
+        )
+        .join("");
+      legend.querySelectorAll(".legend-item").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const idx = state.stops.findIndex((s) => s.id === btn.dataset.stop);
+          if (idx >= 0) goTo(idx);
+        });
+      });
+    }
   }
 
   function switchTab(tab) {

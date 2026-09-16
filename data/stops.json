@@ -1,1 +1,620 @@
-[]
+[
+  {
+    "id": "puerta-granadas",
+    "order": 1,
+    "name_en": "Gate of the Pomegranates",
+    "name_es": "Puerta de las Granadas",
+    "area": "Approach (free zone)",
+    "time_min": 5,
+    "status": "open",
+    "history": "A 1536 triumphal arch by Pedro Machuca, the same architect as the Palace of Charles V, built over the old Nasrid Bab al-Bunud (Gate of the Standards). It marks the point where the city ends and the Alhambra's woodland begins — Charles V announcing his ground in Roman-imperial style.",
+    "architecture": [
+      "A heavy rusticated Tuscan triumphal arch, Serlian in manner: one central round arch flanked by pilasters.",
+      "A broken pediment crowned with three carved pomegranates — granada, the punning heraldic emblem of the conquered kingdom.",
+      "Two reclining figures (Peace and Abundance) flank the imperial coat of arms above the arch."
+    ],
+    "look_for": [
+      "The three pomegranates on top, each split open — the emblem of Granada.",
+      "The imperial double-headed eagle and Charles V's arms above the arch.",
+      "Just past the arch the path forks three ways: left/uphill to the Puerta de la Justicia (your route), centre to the ticket pavilion road, right to the Torres Bermejas.",
+      "The water channels running down both sides of the Cuesta de Gomérez, fed from the same 14th-century acequia system that feeds the palaces.",
+      "The Pilar de Carlos V fountain at the fork (1545, also by Machuca) — drinkable water, good spot to fill bottles before the climb."
+    ],
+    "photos": [
+      { "src": "photos/puerta-granadas-1.jpg", "caption": "Puerta de las Granadas", "credit": "José Luis Filpo Cabana, CC BY 4.0" },
+      { "src": "photos/puerta-granadas-2.jpg", "caption": "Puerta de las Granadas, detail", "credit": "Palickap, CC BY-SA 4.0" }
+    ]
+  },
+  {
+    "id": "puerta-justicia",
+    "order": 2,
+    "name_en": "Gate of Justice",
+    "name_es": "Puerta de la Justicia (Bāb al-Sharī'a)",
+    "area": "Entrance",
+    "time_min": 10,
+    "status": "open",
+    "history": "Built in 1348 by Yusuf I — the largest and most impressive of the Alhambra's outer gates, and the historic ceremonial entrance to the citadel. Its Arabic name means roughly \"Gate of the Esplanade,\" from the open ground outside where the sultan's court dispensed summary justice. After 1492 the Catholic Monarchs bolted a Gothic Virgin and Child, by Roberto Alemán, directly over the original Arabic inscription.",
+    "architecture": [
+      "A bent-entry (recodo) gatehouse: the classic Islamic defensive plan. The ramp turns twice at right angles so a battering ram can never get a straight run.",
+      "Inside the passage, three different kinds of vault — an elongated cross-vault, a cupola, and three cross vaults — all painted to simulate red brick coursing.",
+      "The great outer horseshoe arch still keeps part of its original rhombus-pattern tile in the spandrels. The iron-plated door leaves are the originals."
+    ],
+    "look_for": [
+      "The Hand carved on the keystone of the outer arch — an open right hand, read as the five pillars of Islam and as protection against the evil eye.",
+      "The Key carved on the keystone of the inner arch. Legend: the Alhambra falls the day the hand reaches down and grasps the key.",
+      "The Virgin and Child bolted straight over the Arabic foundation inscription — Nasrid arch, Nasrid inscription, Christian statue on top, three layers of history in one wall.",
+      "Feel the double turn as you walk through — count the corners.",
+      "The painted fake red-brick coursing on the vault plaster overhead.",
+      "This gate is in shade in the early morning — good time for a photo of the arch from below with the Virgin included."
+    ],
+    "photos": [
+      { "src": "photos/puerta-justicia-1.jpg", "caption": "Puerta de la Justicia, outer horseshoe arch", "credit": "José Luis Filpo Cabana, CC BY 4.0" },
+      { "src": "photos/puerta-justicia-2.jpg", "caption": "Puerta de la Justicia", "credit": "Javi Guerra Hernando, CC BY-SA 4.0" }
+    ]
+  },
+  {
+    "id": "puerta-vino",
+    "order": 3,
+    "name_en": "Wine Gate",
+    "name_es": "Puerta del Vino (Bāb al-Khamra)",
+    "area": "Plaza de los Aljibes",
+    "time_min": 6,
+    "status": "open",
+    "history": "One of the oldest structures on the hill — probably built under Muhammad III in the early 14th century, with its west façade redecorated under Muhammad V. It was never defensive: it's the inner gate that separated the royal/military zone from the medina, the town of craftsmen and soldiers that filled the southern half of the hill. The name likely comes from tax-free wine stored here after 1492.",
+    "architecture": [
+      "A free-standing rectangular gatehouse with a horseshoe arch on both faces and a small chamber above.",
+      "The west face (toward Plaza de los Aljibes) is the showpiece: horseshoe arch under a rectangular alfiz frame, a Kufic inscription band, and a panel of glazed tile and carved stucco sebka lattice above.",
+      "The east face, toward the town, is later and plainer."
+    ],
+    "look_for": [
+      "Compare the two faces: lavish toward the royals, modest toward the town — Nasrid decoration always aims at whoever mattered.",
+      "The band of ceramic tile on the west face — some of the oldest surviving tilework in the Alhambra.",
+      "The sebka diamond lattice in stucco above the arch — your first sight of a motif that will dominate every wall from here on.",
+      "Walk through it rather than around — one of the few places you can stand inside a Nasrid arch with no crowd.",
+      "A small plaque here commemorates Claude Debussy's 1913 piano prelude \"La Puerta del Vino,\" written after Manuel de Falla sent him a postcard of this gate. Debussy never visited Spain."
+    ],
+    "photos": [
+      { "src": "photos/puerta-vino-1.jpg", "caption": "Puerta del Vino, west façade", "credit": "Alberto-g-rovi, CC BY 3.0" },
+      { "src": "photos/puerta-vino-2.jpg", "caption": "Puerta del Vino", "credit": "Jebulon, CC0" }
+    ]
+  },
+  {
+    "id": "aljibes-alcazaba",
+    "order": 4,
+    "name_en": "Cistern Square & the Alcazaba (exterior only)",
+    "name_es": "Plaza de los Aljibes / La Alcazaba",
+    "area": "Plaza de los Aljibes",
+    "time_min": 10,
+    "status": "closed",
+    "status_note": "The Alcazaba interior, including Torre de la Vela, is closed \"until further notice\" after August 2026 earthquake damage to its merlons and battlements. View it from Plaza de los Aljibes only — confirm status at the ticket gate.",
+    "history": "The Alcazaba is the oldest part of the Alhambra, begun by Muhammad I after 1238 on the foundations of an 11th-century Zirid fort. It was a working garrison, not a palace — home to the Plaza de Armas and a dense quarter of houses for the elite guard, with a bath-house, kitchens, silos and dungeons. In 1494 the Count of Tendilla filled in the ravine in front of it and built two huge cisterns underneath — the Plaza de los Aljibes you're standing in.",
+    "architecture": [
+      "Rammed-earth and rubble walls faced in stone, with square towers.",
+      "Torre de la Vela at the western tip: four storeys, a flat roof, and a bell installed in 1755.",
+      "Torre del Homenaje at the north-east corner, 26 m tall with five vaulted floors — possibly Muhammad I's own first residence.",
+      "The round Torre del Cubo is a later 16th-century Spanish artillery bastion, added after gunpowder changed fortification design."
+    ],
+    "look_for": [
+      "Stand in the middle of Plaza de los Aljibes: you're standing on a filled-in ravine, the seam between fortress and palaces.",
+      "The Torre de la Vela's bell: every 2 January, the anniversary of the 1492 surrender, Granada's women ring it — tradition says a girl who rings it will marry within the year.",
+      "On 2 January 1492 the flag of Castile was raised over this tower the same day the city surrendered.",
+      "The round Torre del Cubo versus the square Nasrid towers — round bastions are a post-gunpowder invention, and the difference is visible at a glance.",
+      "Look for earthquake damage to the merlons and battlements along the top — exactly what closed the tower."
+    ],
+    "photos": [
+      { "src": "photos/aljibes-alcazaba-1.jpg", "caption": "The Alcazaba, from Plaza de los Aljibes", "credit": "Jebulon, CC0" },
+      { "src": "photos/aljibes-alcazaba-2.jpg", "caption": "Torre de la Vela", "credit": "Jebulon, CC0" }
+    ]
+  },
+  {
+    "id": "mexuar",
+    "order": 5,
+    "name_en": "The Mexuar — your 08:30 entry point",
+    "name_es": "Sala del Mexuar",
+    "area": "Nasrid Palaces",
+    "time_min": 10,
+    "status": "open",
+    "history": "The westernmost and most public of the three Nasrid palaces — designed as the start of the sequence, since the further in a petitioner was allowed, the higher their standing. This was the administrative and judicial wing, where the sultan and his viziers heard petitions. Mostly Muhammad V's work over earlier Isma'il I structures. Converted into a Christian chapel after 1492; the central lantern dome was removed in 1540 to add an upper floor. Modern restoration has stripped most of that back out.",
+    "architecture": [
+      "A square central space defined by four slender marble columns with Nasrid capitals that still hold traces of original polychromy.",
+      "The columns originally carried a raised lantern dome with coloured glass — an oculus of light dropped into the middle of the room.",
+      "Tile-mosaic dado, carved stucco above with sebka lattice and inscription bands, wooden techumbre ceiling.",
+      "A small oratory off the north-east courtyard, with a mihrab in carved stucco inscribed with part of Qur'an 7:205."
+    ],
+    "look_for": [
+      "The four columns and the empty space above them — imagine the coloured-glass lantern that used to sit there.",
+      "Polychrome traces on the capitals — get close without touching; you'll find surviving red and blue.",
+      "The tile dado here is among the most varied of any room in the complex.",
+      "In the oratory: the mihrab is NOT aligned with the room — it has to face Mecca (south-east), so it sits at an awkward angle to the walls. A small, honest collision between architecture and faith.",
+      "You get roughly 10 minutes of near-empty rooms right at 08:30 before the slot fills — move briskly here and spend the saved time in the Court of the Myrtles and Court of the Lions."
+    ],
+    "photos": [
+      { "src": "photos/mexuar-1.jpg", "caption": "Sala del Mexuar", "credit": "Jebulon, CC0" },
+      { "src": "photos/mexuar-2.jpg", "caption": "Mexuar tile dado (azulejos)", "credit": "Benjamin Smith, CC BY-SA 4.0" }
+    ]
+  },
+  {
+    "id": "cuarto-dorado",
+    "order": 6,
+    "name_en": "Courtyard of the Golden Room & the Comares Façade",
+    "name_es": "Patio del Cuarto Dorado",
+    "area": "Nasrid Palaces",
+    "time_min": 9,
+    "status": "partial",
+    "status_note": "The courtyard is under a continuous protective covering for roof restoration and the Comares Façade is currently concealed by scaffolding — expect the photo below to look different from what's in front of you.",
+    "history": "The hinge of the whole palace complex, and possibly its cleverest piece of architecture. The Comares Façade, completed around 1370 under Muhammad V, is the ceremonial front of the Comares Palace — the sultan sat under the wooden eave and received petitioners standing below. The Cuarto Dorado (Golden Room) takes its name from a ceiling painted and gilded in 1499 for the Catholic Monarchs.",
+    "architecture": [
+      "One of the most densely decorated walls in the Alhambra: tile dado, then an immense field of sebka lattice, arabesque and inscription, then a muqarnas cornice and a projecting carved wooden eave.",
+      "Carries poetry by Ibn Zamrak and the Qur'anic Throne Verse (2:255).",
+      "The north portico's marble columns carry older Almohad-style capitals rather than standard Nasrid ones — reused, or deliberately archaic."
+    ],
+    "look_for": [
+      "The trick: there are two identical doors in the façade, and they are not equal. The right-hand (eastern) door is real and leads via a deliberately disorienting dog-legged passage into the Court of the Myrtles; the left door leads to service rooms. You can't see the Court of the Myrtles from here — the reveal is designed to surprise.",
+      "The twin arched window above the doors, where the sultan sat.",
+      "The muqarnas cornice under the eave — count the tiers.",
+      "In the Cuarto Dorado itself, look up: a gilded 1499 Mudéjar wooden ceiling — Christian heraldry on an Islamic frame.",
+      "Find \"Wa lā ghāliba illā Llāh\" (\"there is no victor but God\") repeated in the stucco panels and tile dado — your first hunt for the Nasrid motto."
+    ],
+    "photos": [
+      { "src": "photos/cuarto-dorado-1.jpg", "caption": "Comares Façade", "credit": "Benjamin Smith, CC BY-SA 4.0" },
+      { "src": "photos/cuarto-dorado-2.jpg", "caption": "The Nasrid motto carved in a window of the Cuarto Dorado", "credit": "Jebulon, CC0" }
+    ]
+  },
+  {
+    "id": "patio-arrayanes",
+    "order": 7,
+    "name_en": "Court of the Myrtles",
+    "name_es": "Patio de los Arrayanes (Patio de la Alberca)",
+    "area": "Nasrid Palaces — Comares Palace",
+    "time_min": 15,
+    "status": "open",
+    "history": "The formal, public heart of the Comares Palace, the state palace of Yusuf I, brought to its final form by Muhammad V between 1362 and 1367 — where ambassadors were received and the business of the emirate transacted. The Palace of Charles V was built right against its south side, destroying rooms that once stood there.",
+    "architecture": [
+      "A rectangle roughly 36.6 × 23.5 m, with a pool 34 × 7.1 m running its full length, flanked by clipped myrtle hedges.",
+      "At each end, a portico of a wide central arch flanked by three smaller arches on marble columns, richly worked in stucco arabesque and calligraphy.",
+      "The north portico is backed by the Sala de la Barca and, beyond it, the Comares Tower."
+    ],
+    "look_for": [
+      "Crouch at the southern end at eye level with the water: the Comares Tower doubles into a perfect vertical reflection. At 08:40 you can get this with no one in the shot — arguably the single best photo in the Alhambra.",
+      "Water enters through two low marble basins at almost zero velocity, engineered not to make ripples.",
+      "The courtyard is almost exactly a double square; the tower is off the short axis, not centred on the long one.",
+      "Crush a myrtle leaf between your fingers — the scent is part of the design. Nasrid gardens were scent gardens.",
+      "Turn and face south: that plain wall is the back of Charles V's Renaissance palace, built over two demolished rooms of the Comares Palace.",
+      "The columns are not evenly spaced — the rhythm widens toward the centre of each portico to frame the axis.",
+      "Best light: early morning, sun low from the east, reflection perfect. By midday it's flat and packed."
+    ],
+    "photos": [
+      { "src": "photos/patio-arrayanes-1.jpg", "caption": "Court of the Myrtles, reflecting pool", "credit": "Tuxyso, CC BY-SA 3.0" },
+      { "src": "photos/patio-arrayanes-2.jpg", "caption": "Patio de los Arrayanes", "credit": "Benjamin Smith, CC BY-SA 4.0" }
+    ]
+  },
+  {
+    "id": "sala-barca",
+    "order": 8,
+    "name_en": "Hall of the Blessing (\"Hall of the Boat\")",
+    "name_es": "Sala de la Barca",
+    "area": "Nasrid Palaces — Comares Palace",
+    "time_min": 5,
+    "status": "open",
+    "history": "The antechamber between the Court of the Myrtles and the throne room — a long reception hall running east–west under the Comares Tower. Part of Yusuf I's palace, redecorated by Muhammad V.",
+    "architecture": [
+      "A long rectangle with alcoves at each end and an ornate vaulted wooden ceiling with a rounded, half-cylinder profile covered in geometric marquetry.",
+      "The original ceiling burned in 1890 and was painstakingly reconstructed by 1965 from photographs and surviving fragments."
+    ],
+    "look_for": [
+      "The name is a linguistic accident: \"Barca\" looks like Spanish for boat, and the arched ceiling does look like an upturned hull — but it almost certainly comes from the Arabic baraka, \"blessing,\" written repeatedly around the walls. Try to find the word.",
+      "In places you can distinguish 1890-fire restoration from original woodwork.",
+      "The niches flanking the doorway held water jars for guests — look for the tiny drainage channels.",
+      "This room is the pressure-release chamber between the blazing courtyard and the dark throne room — the temperature and light drop is deliberate."
+    ],
+    "photos": [
+      { "src": "photos/sala-barca-1.jpg", "caption": "Sala de la Barca ceiling", "credit": "R Prazeres, CC BY-SA 4.0" },
+      { "src": "photos/sala-barca-2.jpg", "caption": "Sala de la Barca", "credit": "R Prazeres, CC BY-SA 4.0" }
+    ]
+  },
+  {
+    "id": "salon-embajadores",
+    "order": 9,
+    "name_en": "Hall of the Ambassadors (Throne Room)",
+    "name_es": "Salón de Comares / Salón de Embajadores",
+    "area": "Nasrid Palaces — Comares Tower",
+    "time_min": 5,
+    "status": "closed",
+    "status_note": "Closed until further notice after the August 2026 earthquakes — decorative plasterwork fell here. You'll see it from the Court of the Myrtles as a tower rising over the north portico. This is the biggest single loss on the route this year, so read up on it here and let the photos do the rest.",
+    "history": "Built by Yusuf I inside the Comares Tower, redecorated by Muhammad V. The throne room of the Emirate of Granada, and almost certainly where Boabdil signed the surrender of Granada in 1492, and where Columbus was received by Ferdinand and Isabella.",
+    "architecture": [
+      "The Comares Tower is 45 m tall and about 16 m square; the hall inside is a cube 11.3 m on a side and 18.2 m high.",
+      "The ceiling: a wooden dome of roughly 125 m², built from 8,017 interlocking pieces of cedar — the largest of its kind in the western Islamic world, read as a diagram of the seven heavens of Islamic cosmology.",
+      "Three of the four walls have three alcoves each — nine in total, each with a low twin window."
+    ],
+    "look_for": [
+      "Nine alcoves in total — the central one on the north wall was the sultan's seat, framed by a double window so a visitor entering from the south saw him silhouetted against the light, expression unreadable. Pure theatre.",
+      "The floor originally had lustre tiles carrying the Nasrid motto — meaning people literally walked on the name of God.",
+      "The cedar dome's central star, and the \"seven heavens\" reading of the pattern.",
+      "From the Court of the Myrtles you can still see the tower's mass rising over the north portico — that view is this year's stop."
+    ],
+    "photos": [
+      { "src": "photos/salon-embajadores-1.jpg", "caption": "Salón de Embajadores (Hall of the Ambassadors)", "credit": "Benjamin Smith, CC BY-SA 4.0" },
+      { "src": "photos/salon-embajadores-2.jpg", "caption": "Comares Hall cedar dome", "credit": "R Prazeres, CC BY-SA 4.0" }
+    ]
+  },
+  {
+    "id": "patio-leones",
+    "order": 10,
+    "name_en": "Court of the Lions",
+    "name_es": "Patio de los Leones",
+    "area": "Nasrid Palaces — Palace of the Lions",
+    "time_min": 18,
+    "status": "open",
+    "history": "Muhammad V's private palace, begun 1362 and finished 1377–90 — \"the apogee of Nasrid architecture in al-Andalus.\" Unlike the Comares Palace, this was the sultan's intimate residential quarter, not connected to the Comares Palace at all until after 1492. Comprehensively restored 2002–2012.",
+    "architecture": [
+      "A rectangle 28.7 × 15.6 m surrounded by a portico of 124 slender white Macael marble columns in a syncopated rhythm — single columns alternating with groups of two and three.",
+      "Two pavilions project into the courtyard from east and west, each on three bays with pyramidal roofs over wooden domed ceilings.",
+      "Four water channels run from the four surrounding halls to a central fountain — the chahar bagh, the four-part Persian paradise garden representing the four rivers of Paradise.",
+      "In the centre: the Fountain of the Lions, a twelve-sided alabaster basin on twelve marble lions."
+    ],
+    "look_for": [
+      "Count the lions: twelve, each subtly different — different manes, faces, postures. Find the two that look most alike, and the one that looks most like a dog.",
+      "Ibn Zamrak's poem runs in twelve verses around the rim of the basin — one couplet: \"So similar is that which runs to that which is still, that we know not which of them is flowing.\"",
+      "The original hydraulics kept the basin at a constant level using a perforated marble regulator — reconstructed in 2002–2012 using Ibn Zamrak's poem itself as the engineering specification.",
+      "The columns are not a grid — walk the perimeter slowly and watch the 1–2–3 rhythm; the portico is meant to read as dissolving, like a stone forest.",
+      "Best photo isn't the fountain head-on — try down the long axis through the east or west pavilion, with the columns compressing into a screen.",
+      "The east and west pavilions are not identical in detail — compare the capitals."
+    ],
+    "photos": [
+      { "src": "photos/patio-leones-1.jpg", "caption": "Fountain of the Lions", "credit": "José Luis Filpo Cabana, CC BY 3.0" },
+      { "src": "photos/patio-leones-2.jpg", "caption": "Court of the Lions", "credit": "Zarateman, CC0" }
+    ]
+  },
+  {
+    "id": "sala-abencerrajes",
+    "order": 11,
+    "name_en": "Hall of the Abencerrajes",
+    "name_es": "Sala de los Abencerrajes",
+    "area": "Nasrid Palaces — south of Court of the Lions",
+    "time_min": 8,
+    "status": "open",
+    "history": "A private chamber of Muhammad V's palace, named after the Abencerrajes (Banū Sarrāj), a powerful 15th-century noble clan. Legend says the sultan invited the clan's nobles to a banquet here and had them beheaded over the fountain. There's no solid historical evidence it happened in this room, but it's one of the Alhambra's best stories and every guide tells it.",
+    "architecture": [
+      "A square room crowned by one of the finest muqarnas vaults anywhere: a sixteen-sided cupola in the form of an eight-pointed star, resolved from the square plan through squinches.",
+      "16th-century Sevillian tiles line the dado.",
+      "A low marble fountain basin sits centred in the room, fed and drained by channels running out to the courtyard."
+    ],
+    "look_for": [
+      "Look straight up and let the eight-pointed star resolve — the vault has no structural function; it's plaster hung below the real roof, built to make stone look like light.",
+      "Sixteen windows around the drum let daylight rake across the cells low from the east around 09:00 — exactly when you'll be there.",
+      "The rust-coloured stains in the marble basin: guides say it's the Abencerrajes' blood, but it's iron oxide. Still worth pointing out.",
+      "Compare this vault with the matching one in the Sala de Dos Hermanas across the courtyard — the same idea, two different solutions."
+    ],
+    "photos": [
+      { "src": "photos/sala-abencerrajes-1.jpg", "caption": "Sala de los Abencerrajes, muqarnas vault", "credit": "Jebulon, CC0" },
+      { "src": "photos/sala-abencerrajes-2.jpg", "caption": "Sala de los Abencerrajes", "credit": "Alberto-g-rovi, CC BY 3.0" }
+    ]
+  },
+  {
+    "id": "sala-reyes",
+    "order": 12,
+    "name_en": "Hall of the Kings",
+    "name_es": "Sala de los Reyes",
+    "area": "Nasrid Palaces — east of Court of the Lions",
+    "time_min": 8,
+    "status": "open",
+    "history": "A long hall along the whole east end of the courtyard, divided by muqarnas arches into seven compartments — three square alcoves alternating with rectangular bays. The three alcoves have painted leather ceilings, figurative and Gothic/Italianate in style, almost certainly painted by Christian artists working for Muhammad V in the late 14th century. Restoration completed 2018.",
+    "architecture": [
+      "Three vaults of painted leather stretched over a wooden frame — an almost unique technique.",
+      "Transverse muqarnas arches divide the hall into its seven parts, each heavily worked in stucco."
+    ],
+    "look_for": [
+      "The central ceiling shows ten Muslim men in noble dress seated in conversation — traditionally read as ten Nasrid sultans, hence \"Hall of the Kings.\"",
+      "The two side ceilings show courtly chivalric scenes: hunting, a wild-boar hunt, a lion, a chess game, knights jousting, a lady at a fountain — Christian iconography inside a Muslim palace, the best evidence anywhere of how porous the Nasrid/Castilian border really was.",
+      "Painted on leather, not plaster or panel — look for the seams.",
+      "The light is dim and the ceilings are high — use your phone's low-light mode, no flash, no tripod."
+    ],
+    "photos": [
+      { "src": "photos/sala-reyes-1.jpg", "caption": "Sala de los Reyes ceiling", "credit": "Benjamin Smith, CC BY-SA 4.0" },
+      { "src": "photos/sala-reyes-2.jpg", "caption": "Sala de los Reyes", "credit": "Benjamin Smith, CC BY-SA 4.0" }
+    ]
+  },
+  {
+    "id": "sala-dos-hermanas",
+    "order": 13,
+    "name_en": "Hall of the Two Sisters",
+    "name_es": "Sala de Dos Hermanas",
+    "area": "Nasrid Palaces — north of Court of the Lions",
+    "time_min": 10,
+    "status": "open",
+    "history": "The principal room of the private palace, almost certainly the sultan's household residence. Built under Muhammad V. Its muqarnas dome is widely regarded as one of the supreme achievements of Islamic art anywhere in the world.",
+    "architecture": [
+      "A square room under a muqarnas cupola of at least 5,000 individual prismatic plaster cells — the second-largest dome in the Alhambra after the Comares ceiling, and by far the most complex.",
+      "An eight-pointed star radiates outward and downward in receding tiers, pierced by sixteen windows at its base.",
+      "The walls carry a poem by Ibn Zamrak in which the room speaks in the first person, comparing itself to the constellations."
+    ],
+    "look_for": [
+      "The name: two enormous matched slabs of white Macael marble set into the floor either side of the central fountain — almost nobody looks down. Find them; they're the actual namesake of the room.",
+      "Stand directly under the dome's centre and find the eight-pointed star at the apex, then follow one arm outward and watch it subdivide.",
+      "The sixteen windows at the dome's base make the whole vault appear to float free of the walls — the entire point of muqarnas.",
+      "Walk north through the Sala de los Ajimeces to the Mirador de Lindaraja — the rooms shrink and darken, then explode into light. The sequence is deliberate.",
+      "Compare this vault with the Abencerrajes vault directly opposite — same idea, two different solutions."
+    ],
+    "photos": [
+      { "src": "photos/sala-dos-hermanas-1.jpg", "caption": "Muqarnas dome, Sala de Dos Hermanas", "credit": "José Luis Filpo Cabana, CC BY-SA 4.0" },
+      { "src": "photos/sala-dos-hermanas-2.jpg", "caption": "Sala de Dos Hermanas", "credit": "Kolforn, CC BY-SA 4.0" }
+    ]
+  },
+  {
+    "id": "mirador-lindaraja",
+    "order": 14,
+    "name_en": "Mirador de Lindaraja",
+    "name_es": "Mirador de Lindaraja (de Daraxa)",
+    "area": "Nasrid Palaces",
+    "time_min": 5,
+    "status": "open",
+    "history": "A small belvedere projecting north from the Sala de los Ajimeces, built for Muhammad V. The name is a Spanish mangling of Arabic for \"the eye of Aisha's house\" — a beautiful phrase for a window. It once looked straight out over the Darro valley to the Albaicín; after 1492 the Emperor's Chambers were built beyond it, enclosing the view into the small Patio de Lindaraja. One of the most poignant alterations on the site.",
+    "architecture": [
+      "A square chamber on a twin-arched (ajimez) opening, with very low windows — sill height around 40–50 cm, because the occupant sat on cushions on the floor.",
+      "Walls in fine carved stucco with inscription.",
+      "The ceiling is a lantern vault of interlaced wooden lattice filled with coloured glass — the only one of its kind in the Alhambra."
+    ],
+    "look_for": [
+      "Crouch or sit — the windows are at floor level. Standing, you're seeing the room wrong; at sitting height the framing snaps into place. Probably the single best \"aha\" moment in the palace.",
+      "The coloured-glass lantern ceiling — small and easy to miss, unique to this room.",
+      "The inscription describes the mirador, in the first person, as an eye looking out — at a view you can no longer see.",
+      "Notice how small and private this room is after the vast public courtyards — a room for one person, sitting down, looking at a valley."
+    ],
+    "photos": [
+      { "src": "photos/mirador-lindaraja-1.jpg", "caption": "Mirador de Lindaraja", "credit": "José Luis Filpo Cabana, CC BY 4.0" },
+      { "src": "photos/mirador-lindaraja-2.jpg", "caption": "Coloured-glass lantern ceiling", "credit": "José Luis Filpo Cabana, CC BY 4.0" }
+    ]
+  },
+  {
+    "id": "emperor-chambers",
+    "order": 15,
+    "name_en": "Emperor's Chambers, Patio de Lindaraja & Patio de la Reja",
+    "name_es": "Habitaciones del Emperador / Patio de Lindaraja / Patio de la Reja",
+    "area": "Nasrid Palaces — Christian-era wing",
+    "time_min": 10,
+    "status": "open",
+    "history": "The Christian layer of the palace. Charles V had six rooms built here in the 1530s over old Nasrid service quarters, connected to the Peinador de la Reina belvedere tower. Washington Irving lived in these rooms in 1829 and wrote Tales of the Alhambra here — the book that made the Alhambra world-famous and arguably saved it from demolition.",
+    "architecture": [
+      "Restrained Renaissance work: plain plastered walls, wooden beam ceilings.",
+      "Patio de Lindaraja is essentially a 17th-century Christian garden laid into a Nasrid frame, with a genuine Nasrid marble fountain basin on a later pedestal.",
+      "Patio de la Reja, a small 17th-century courtyard, sits directly on top of the Comares Baths, with four cypresses and an iron balcony grille."
+    ],
+    "look_for": [
+      "The plaque marking Washington Irving's rooms.",
+      "In the Patio de Lindaraja, look up at the enclosed windows — the back of the Mirador de Lindaraja, whose view these buildings stole.",
+      "The fountain basin is genuine Nasrid marble; the plinth beneath it is not.",
+      "In the Patio de la Reja, look for star-shaped glazed skylight openings in the floor — you're standing on the roof of the Comares Baths, one of the best-preserved hammams on the Iberian peninsula, closed to the public but visible through the glazing.",
+      "This whole area is where most visitors speed up because \"the palace is over.\" It's actually the quietest part of the Nasrid Palaces — slow down here."
+    ],
+    "photos": [
+      { "src": "photos/emperor-chambers-1.jpg", "caption": "Patio de Lindaraja", "credit": "Tuxyso, CC BY-SA 3.0" },
+      { "src": "photos/emperor-chambers-2.jpg", "caption": "Patio de la Reja", "credit": "Yair Haklai, CC BY-SA 4.0" }
+    ]
+  },
+  {
+    "id": "partal",
+    "order": 16,
+    "name_en": "El Partal & the Partal Gardens",
+    "name_es": "El Partal / Palacio del Pórtico / Torre de las Damas",
+    "area": "Partal",
+    "time_min": 35,
+    "status": "open",
+    "history": "The oldest surviving palace in the Alhambra, built by Muhammad III (r. 1302–1309). For centuries it was in private hands — its owner, German banker Arthur von Gwinner, removed the Torre de las Damas' original carved wooden cupola in the early 1900s; it's now in the Museum of Islamic Art in Berlin. He donated the property to Spain in 1891. Leopoldo Torres Balbás created the terraced gardens you walk through between the 1910s and 1930s.",
+    "architecture": [
+      "A five-arched portico with a wide central arch, fronting a large rectangular reflecting pool, with the Torre de las Damas rising behind it.",
+      "The tower contains the oldest surviving muqarnas vault in the Alhambra, and a tiny oratory beside it with a muqarnas mihrab dated to Isma'il I (1314–25).",
+      "On the upper terrace, four 14th-century Nasrid houses, one preserving fragments of painted wall decoration discovered in 1907 — possibly the only surviving painted decoration actually executed by Nasrid artists."
+    ],
+    "look_for": [
+      "Stand at the south end of the pool and shoot north: portico, tower and sky all double — the Court of the Myrtles trick, outdoors, with a fraction of the crowd. Great light around 10:00.",
+      "The two marble lions that used to flank the pool are gone, removed in the 1890s for conservation — now in the Alhambra Museum (Stop 23). Find their empty plinths.",
+      "Inside the Torre de las Damas, the oldest muqarnas vault in the Alhambra — and the plain modern ceiling in the other chamber where Gwinner's removed cupola used to be.",
+      "The tiny oratory, easy to walk past — its mihrab is again angled away from the room's axis to face Mecca.",
+      "The best place on the hill for a rest and water: shade, benches, few people, a view down over the Albaicín."
+    ],
+    "photos": [
+      { "src": "photos/partal-1.jpg", "caption": "El Partal, portico and pool", "credit": "Tuxyso, CC BY-SA 3.0" },
+      { "src": "photos/partal-2.jpg", "caption": "Torre de las Damas", "credit": "José Luis Filpo Cabana, CC BY 4.0" }
+    ]
+  },
+  {
+    "id": "paseo-torres",
+    "order": 17,
+    "name_en": "Walk of the Towers",
+    "name_es": "Paseo de las Torres (Torre de la Cautiva & Torre de las Infantas)",
+    "area": "North wall",
+    "time_min": 20,
+    "status": "open",
+    "history": "The Alhambra's north wall is punctuated by tower-palaces — tiny luxurious houses disguised as fortifications. Torre de la Cautiva was built under Yusuf I (c. 1340s); its name comes from a legend about a Christian captive held there. Torre de las Infantas was built under Muhammad VII (r. 1392–1408), the last significant Nasrid building on the hill, with visibly later and more mechanical decoration.",
+    "architecture": [
+      "Both are bent-entry towers with a central courtyard-like room lit from above and three small alcoves.",
+      "The Cautiva has an extraordinary tile dado and carved stucco of the highest Yusufi quality; the Infantas is more provincial but has a fine muqarnas ceiling."
+    ],
+    "look_for": [
+      "The walk itself: the path runs along the top of the north wall with an uninterrupted drop to the Darro valley and the Albaicín — the least crowded stretch of the whole visit.",
+      "Torre de los Picos, with its projecting corbelled parapet — Christian Gothic influence in a Nasrid building. A reminder the \"clash of civilisations\" story is too simple.",
+      "The Puerta del Arrabal at the base of Torre de los Picos — the gate the sultans used to ride out to the Generalife.",
+      "Look down-left at the ruined gardens and the Cuesta de los Chinos path in the ravine below.",
+      "Look up-right at the Generalife on the opposite hillside — you'll be there in twenty minutes."
+    ],
+    "photos": [
+      { "src": "photos/paseo-torres-1.jpg", "caption": "Torre de las Infantas", "credit": "R Prazeres, CC BY-SA 4.0" },
+      { "src": "photos/paseo-torres-2.jpg", "caption": "Torre de las Infantas, from the Generalife", "credit": "Jebulon, CC0" }
+    ]
+  },
+  {
+    "id": "generalife-jardines-nuevos",
+    "order": 18,
+    "name_en": "Generalife: the New Gardens",
+    "name_es": "Jardines Nuevos del Generalife",
+    "area": "Generalife",
+    "time_min": 15,
+    "status": "open",
+    "history": "Despite looking ancient, these are 20th-century gardens — the northern rose-labyrinth section designed by Leopoldo Torres Balbás in 1931, the southern part completed by Francisco Prieto Moreno in 1951, with an open-air theatre added in 1952 (still used for the Granada International Festival of Music and Dance each June–July).",
+    "architecture": [
+      "Italianate in inspiration: clipped cypress walls, long axial vistas, a large cruciform pool — designed to feel Islamic but built in the 20th century."
+    ],
+    "look_for": [
+      "They're modern, and honest about it — a good reminder that much of what visitors assume is \"Moorish garden\" here is 20th-century landscape design in a Moorish idiom.",
+      "The cypress-walled corridors frame views of the Alhambra across the ravine — walk slowly and watch the Comares Tower appear and disappear between the hedges.",
+      "The large cruciform pool in the southern section — a modern chahar bagh.",
+      "The name Generalife likely comes from Arabic jannat al-'arif, sometimes translated \"Garden of the Architect\" or \"Garden of the Artist\" — though a palace inscription actually names it Dār al-Mamlakat al-Sa'īda, \"House of the Felicitous Kingdom.\" It may simply have meant \"the Principal Orchard,\" because that's what it was: the royal farm."
+    ],
+    "photos": [
+      { "src": "photos/generalife-jardines-nuevos-1.jpg", "caption": "Jardines Nuevos, Generalife", "credit": "Kolforn, CC BY-SA 4.0" },
+      { "src": "photos/generalife-jardines-nuevos-2.jpg", "caption": "View of the Alhambra from the Generalife", "credit": "Martinvl, CC BY-SA 4.0" }
+    ]
+  },
+  {
+    "id": "patio-acequia",
+    "order": 19,
+    "name_en": "Court of the Water Channel — the Generalife's highlight",
+    "name_es": "Patio de la Acequia",
+    "area": "Generalife",
+    "time_min": 20,
+    "status": "open",
+    "history": "The core of the Nasrid summer palace, probably built by Muhammad II (r. 1273–1302), decorated under Muhammad III, remodelled around 1319 by Isma'il I with inscriptions by his vizier Ibn al-Jayyab, further worked by Muhammad V. The Catholic Monarchs added an upper storey to the north pavilion in 1494. A 1958 fire destroyed part of it but the excavations that followed revealed the original Nasrid garden layout.",
+    "architecture": [
+      "A long enclosed courtyard, roughly 48.7 × 12.8 m, built directly over the Acequia Real, the royal irrigation channel running along its central axis, dividing the garden into four beds (chahar bagh).",
+      "A north pavilion with a five-arch portico, sebka stucco and cursive inscriptions, opening to a gallery with an octagonal coffered wooden ceiling and then the Salón Regio with its own mirador tower looking north to the Albaicín.",
+      "A small square mirador projects from the west wall at the courtyard's midpoint — probably the earliest known mirador in Nasrid architecture, the prototype for the one at Lindaraja."
+    ],
+    "look_for": [
+      "Myth-bust: the two rows of arching water jets are NOT original — installed in the 19th century. Everyone photographs them as the quintessential Moorish image; they're Victorian. Nasrid water design was about stillness and sound, not display.",
+      "The west mirador: step in and look west — you're looking straight across the ravine at the whole Alhambra in profile, Comares Tower to Alcazaba. The best wide shot of the Alhambra you'll get all day, and the exact view the Generalife was built for.",
+      "The original flowerbeds were sunk below path level and planted with low myrtle, seen from above like a carpet — today's tall planting is modern.",
+      "The Acequia Real brings water from the Darro 6.1 km away, by surface channels and rock-cut tunnels — every fountain you've seen today runs on gravity from that one channel, no pumps, 700 years running.",
+      "The octagonal coffered wooden ceiling in the north pavilion gallery.",
+      "The 1494 upper storey on the north pavilion is visibly a different building bolted on top."
+    ],
+    "photos": [
+      { "src": "photos/patio-acequia-1.jpg", "caption": "Patio de la Acequia", "credit": "Benjamin Smith, CC BY-SA 4.0" },
+      { "src": "photos/patio-acequia-2.jpg", "caption": "Patio de la Acequia, water channel", "credit": "Jebulon, CC0" }
+    ]
+  },
+  {
+    "id": "patio-sultana",
+    "order": 20,
+    "name_en": "Courtyard of the Sultana's Cypress",
+    "name_es": "Patio del Ciprés de la Sultana",
+    "area": "Generalife",
+    "time_min": 10,
+    "status": "open",
+    "history": "Immediately north-east of and above the Patio de la Acequia. Despite the romantic name, the present design is post-Nasrid: the arcaded north structure dates 1584–1586. Legend says the sultana Zoraya (Isabel de Solís) met her Abencerraje lover under an ancient cypress here, and the discovery triggered the massacre in the Sala de los Abencerrajes. Historically unsupported — and thoroughly enjoyable.",
+    "architecture": [
+      "A sunken garden with an L-shaped pool around a central island bed, a stone arcade, and a stepped fountain (escalinata) on the upper level — a Renaissance-and-later reinterpretation of a Nasrid water garden."
+    ],
+    "look_for": [
+      "The stump of \"the Sultana's cypress\" — a very old, very dead trunk, preserved and labelled. The tree in the legend.",
+      "The L-shaped pool with the island — one of the prettiest, and usually quietest, corners of the Generalife.",
+      "The stepped water cascade on the upper terrace — water made audible by falling over a series of tiny steps, a favourite Andalusian device.",
+      "This spot pairs with the Sala de los Abencerrajes (Stop 11) — tell the massacre legend there, land the other half of the story here."
+    ],
+    "photos": [
+      { "src": "photos/patio-sultana-1.jpg", "caption": "Patio de la Sultana fountain", "credit": "Jebulon, CC0" },
+      { "src": "photos/patio-sultana-2.jpg", "caption": "Patio de la Sultana, detail", "credit": "Jebulon, CC0" }
+    ]
+  },
+  {
+    "id": "escalera-agua",
+    "order": 21,
+    "name_en": "The Water Staircase & Upper Gardens",
+    "name_es": "Escalera del Agua / Jardines Altos",
+    "area": "Generalife",
+    "time_min": 15,
+    "status": "open",
+    "history": "One of the oldest and most distinctive surviving features of the Nasrid Generalife — a 14th-century stairway climbing through the upper gardens to the probable site of the estate's prayer hall. At the top now stands the Pabellón Romántico, a small 1836 Romantic pavilion built on that site.",
+    "architecture": [
+      "Four flights of steps whose stone side balustrades are hollowed into channels carrying running water down their entire length, with small circular landings and fountains at the midpoints.",
+      "Laurel and hazel arch overhead."
+    ],
+    "look_for": [
+      "Run your fingers in the water channel as you climb — this is allowed, it's the balustrade, not a fountain. The handrail IS the aqueduct.",
+      "Close your eyes at one of the circular landings — you'll hear water on both sides at different pitches, plus the fountain. The staircase is an acoustic device as much as a hydraulic one.",
+      "The overhead laurel/hazel canopy makes it dark and cool — deliberate climate engineering, circa 1320.",
+      "The Pabellón Romántico at the top, from 1836, on the site of the Nasrid oratory.",
+      "From the Jardines Altos, the highest viewpoint of the day: the whole Generalife, the Alhambra, and the Vega.",
+      "Exit via the Paseo de las Adelfas (Oleander Walk), the tunnel of oleander that runs south-east and is the modern exit route."
+    ],
+    "photos": [
+      { "src": "photos/escalera-agua-1.jpg", "caption": "Escalera del Agua, Generalife", "credit": "Daderot, CC0" },
+      { "src": "photos/escalera-agua-2.jpg", "caption": "Paseo de las Adelfas", "credit": "Renata Frias, CC BY-SA 4.0" }
+    ]
+  },
+  {
+    "id": "calle-real",
+    "order": 22,
+    "name_en": "Calle Real: Santa María de la Alhambra & the Mosque Baths",
+    "name_es": "Calle Real de la Alhambra",
+    "area": "Calle Real (free zone within the enclosure)",
+    "time_min": 20,
+    "status": "open",
+    "history": "The main street of the Alhambra's medina, a working town of roughly 2,000 people that occupied the southern half of the hill. The Church of Santa María de la Alhambra (1581–1618) was built directly on the foundations of the Alhambra's congregational mosque, which was demolished for it. Next door, the Baño de la Mezquita is the mosque's public bath-house, built under Muhammad III around 1302–1305.",
+    "architecture": [
+      "The church is austere Herrerian Mannerism — plain, gable-fronted, with a bell tower.",
+      "The Baño de la Mezquita is a classic Andalusi hammam: barrel-vaulted rooms with star- and octagon-shaped skylights, originally glazed, casting points of light through the steam."
+    ],
+    "look_for": [
+      "Stand in front of the church: you're standing on the Alhambra's main mosque, recorded by a plaque — the site's most direct piece of religious over-writing.",
+      "In the Baño de la Mezquita, the star-shaped skylights overhead — the signature image of an Andalusi bath.",
+      "Nearby, the Rauda — the ruined Nasrid royal cemetery, emptied in 1492 when the bodies were moved to Mondújar. Easy to miss; look for a low ruined enclosure with a gate.",
+      "The Convent of San Francisco at the eastern end is now the Parador de Granada hotel — Isabella and Ferdinand were originally buried here before being moved to the Royal Chapel in the city. You can walk into the Parador's courtyard and buy a coffee.",
+      "The Parador's terrace and the Kiosko by the Puerta del Vino are essentially the only food and drink on the hill."
+    ],
+    "photos": [
+      { "src": "photos/calle-real-1.jpg", "caption": "Santa María de la Alhambra", "credit": "Tuxyso, CC BY-SA 3.0" },
+      { "src": "photos/calle-real-2.jpg", "caption": "Baño de la Mezquita, star skylights", "credit": "Daniel Villafruela, CC BY-SA 3.0" }
+    ]
+  },
+  {
+    "id": "palacio-carlos-v",
+    "order": 23,
+    "name_en": "Palace of Charles V & the museums",
+    "name_es": "Palacio de Carlos V",
+    "area": "South of Plaza de los Aljibes",
+    "time_min": 50,
+    "status": "open",
+    "history": "Commissioned by Emperor Charles V in 1526 (he honeymooned at the Alhambra that year), designed by Pedro Machuca, who had trained in Rome under Michelangelo. Begun 1527; Machuca died in 1550, his son Luis continued; work stalled during the 1568 Morisco Rebellion and was abandoned in 1637, leaving the building roofless until 1967. Its construction required demolishing part of the Comares Palace and the Nasrid baths' surroundings.",
+    "architecture": [
+      "A 63 m square block containing a perfect circular courtyard 30 m in diameter — a plan with no precedent in Renaissance architecture anywhere.",
+      "Two storeys of colonnade around the circle: Doric below in conglomerate stone with a fully correct classical entablature, Ionic above.",
+      "The exterior: Tuscan order below with heavy rustication, Ionic above with pedimented windows under round oculi. The great portals in Sierra Elvira stone carry reliefs of the emperor's victories and allegories of Peace and Abundance.",
+      "Ground floor: the free Museo de la Alhambra (Islamic art). Upper floor: the Museo de Bellas Artes de Granada (16th–20th century Spanish art)."
+    ],
+    "look_for": [
+      "Walk to the exact centre of the circular courtyard and clap once — the acoustics are extraordinary, the circle focuses the sound back at you. It's used as a concert venue for this reason.",
+      "The square outside, the circle inside — a Renaissance ideal about perfect forms, structurally awkward to build. The corners between square and circle are filled with stairs and service rooms.",
+      "The building is an argument: a pure Italian Renaissance object dropped on top of a Nasrid palace to declare the triumph of Christianity and Charles V's imperial authority. Worth discussing between yourselves rather than settling.",
+      "Bullet and musket marks on the west façade near the ground, from the Peninsular War.",
+      "In the Alhambra Museum, don't miss: the Vase of the Gazelles (Jarrón de las Gacelas), a 1.35 m 14th-century lustreware masterpiece; the two marble lions removed from the Partal pool you looked for earlier; the carved wooden door of the Sala de Dos Hermanas and original painted stucco panels — here you finally see Nasrid colour, which answers the question the whole visit has been raising."
+    ],
+    "photos": [
+      { "src": "photos/palacio-carlos-v-1.jpg", "caption": "Circular courtyard, Palace of Charles V", "credit": "José Luis Filpo Cabana, CC BY-SA 4.0" },
+      { "src": "photos/palacio-carlos-v-2.jpg", "caption": "West portal, Palace of Charles V", "credit": "José Luis Filpo Cabana, CC BY 4.0" }
+    ]
+  },
+  {
+    "id": "mirador-san-nicolas",
+    "order": 24,
+    "name_en": "Optional evening — Mirador de San Nicolás",
+    "name_es": "Mirador de San Nicolás",
+    "area": "Albaicín (outside the Alhambra, free)",
+    "time_min": 45,
+    "status": "open",
+    "history": "The classic view of the entire Alhambra in profile with the Sierra Nevada behind it, seen from the Albaicín hillside directly opposite — the view Bill Clinton called the most beautiful sunset in the world. A 20–25 minute uphill walk from Plaza Nueva through the Albaicín, or bus C31/C32.",
+    "architecture": [
+      "Not a monument — a viewpoint. But it's the only place all day where the whole layout you walked becomes legible in one glance."
+    ],
+    "look_for": [
+      "Sunset ≈ 20:18 on 17 Sept — be in place by 19:45 for the golden hour on the Comares Tower. The walls genuinely turn red: al-Ḥamrā', \"the red one,\" the most likely origin of the name Alhambra.",
+      "From here the day's whole route reads left to right: Alcazaba (west), Charles V's block, the Nasrid Palaces, the towers running east, and the Generalife up on the hill behind.",
+      "It's popular — buskers, crowds, and pickpockets are all reported here. Keep bags in front.",
+      "Quieter alternative a few minutes further up: Mirador de San Cristóbal, or the Alhambra viewpoint from the Sacromonte road."
+    ],
+    "photos": [
+      { "src": "photos/mirador-san-nicolas-1.jpg", "caption": "Alhambra at dusk from Mirador de San Nicolás", "credit": "Slaunger, CC BY-SA 3.0" },
+      { "src": "photos/mirador-san-nicolas-2.jpg", "caption": "View from Mirador de San Nicolás", "credit": "Diego Delso, CC BY-SA 4.0" }
+    ]
+  }
+]

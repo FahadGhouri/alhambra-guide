@@ -1,1 +1,20 @@
-{"title":"Your Day Plan","items":[]}
+{
+  "title": "Thursday 17 Sept 2026 — Nasrid Palaces slot 08:30",
+  "items": [
+    { "time": "07:35", "title": "Leave your accommodation", "body": "Walking from Plaza Nueva via Cuesta de Gomérez is 25–30 min uphill, steep. A taxi from the centre to Puerta de la Justicia is ~10 min." },
+    { "time": "07:50", "title": "Be at the Puerta de la Justicia queue", "body": "Staff usually start scanning tickets around 08:00–08:15; gates open at 08:30. Bring both passports — tickets are nominative and they check." },
+    { "time": "08:00", "title": "Through security & ticket scan", "body": "Walk up past the Puerta del Vino into Plaza de los Aljibes." },
+    { "time": "08:15", "title": "Quick look at Puerta del Vino & the Alcazaba walls", "body": "The Alcazaba interior is closed this year — view from Plaza de los Aljibes only. Then walk east along the front of the Palace of Charles V." },
+    { "time": "08:25", "title": "Queue at the Mexuar door", "body": "The Nasrid Palaces entrance is on the north side of Calle Real, just past the Palace of Charles V. There will already be a line." },
+    { "time": "08:30", "title": "Enter the Mexuar — Nasrid Palaces begin", "body": "One-way from here: Mexuar → Cuarto Dorado → Court of the Myrtles → Sala de la Barca → (Hall of the Ambassadors closed) → Court of the Lions and its four halls → Mirador de Lindaraja → Emperor's Chambers." },
+    { "time": "09:45", "title": "El Partal", "body": "You exit the palaces directly into the Partal Gardens: Torre de las Damas, the oratory, the Nasrid houses, the reflecting pool." },
+    { "time": "10:30", "title": "Paseo de las Torres", "body": "Torre de la Cautiva and Torre de las Infantas — the quietest stretch of the whole visit." },
+    { "time": "10:50", "title": "Cross the footbridge to the Generalife", "body": "" },
+    { "time": "11:05", "title": "Generalife", "body": "Jardines Nuevos → Patio de la Acequia → Patio del Ciprés de la Sultana → Escalera del Agua → Jardines Altos → Paseo de las Adelfas." },
+    { "time": "12:30", "title": "Walk back toward Calle Real", "body": "Via the Cuesta de los Chinos / through the Partal." },
+    { "time": "12:50", "title": "Calle Real", "body": "Santa María de la Alhambra, Baño de la Mezquita. Coffee option at the Parador (old Convent of San Francisco)." },
+    { "time": "13:20", "title": "Palace of Charles V + museums", "body": "Alhambra Museum (free) and Fine Arts Museum. No timed entry, so save it for whenever you need an indoor, unhurried break." },
+    { "time": "14:15", "title": "Alcazaba viewpoint & exit", "body": "Last look at the Alcazaba from Plaza de los Aljibes, exit via Puerta de la Justicia." },
+    { "time": "19:45", "title": "Optional: Mirador de San Nicolás", "body": "Sunset ≈ 20:18. Be in place by 19:45 for the golden hour on the Comares Tower, from across the valley in the Albaicín." }
+  ]
+}
