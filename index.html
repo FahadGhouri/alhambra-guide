@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alhambra Guide</title>
+<meta name="theme-color" content="#7a2e2e">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <button id="btn-menu" class="icon-btn" aria-label="Menu">☰</button>
+    <div class="topbar-title" id="topbar-title">Alhambra Guide</div>
+    <button id="btn-map" class="icon-btn" aria-label="Map">🗺️</button>
+  </header>
+
+  <!-- Tab bar -->
+  <nav class="tabbar" id="tabbar">
+    <button class="tab active" data-tab="route">Route</button>
+    <button class="tab" data-tab="map">Map</button>
+    <button class="tab" data-tab="plan">Day Plan</button>
+    <button class="tab" data-tab="tips">Tips</button>
+  </nav>
+
+  <!-- ROUTE VIEW -->
+  <main id="view-route" class="view active">
+    <div class="progress-rail" id="progress-rail"></div>
+    <section id="stop-content" class="stop-content"></section>
+    <div class="stop-nav">
+      <button id="btn-prev" class="nav-btn">← Prev</button>
+      <div id="stop-index-label" class="stop-index-label"></div>
+      <button id="btn-next" class="nav-btn">Next →</button>
+    </div>
+  </main>
+
+  <!-- MAP VIEW -->
+  <main id="view-map" class="view">
+    <div id="map-wrap" class="map-wrap"></div>
+    <p class="map-hint">Tap a numbered stop to jump to it.</p>
+  </main>
+
+  <!-- DAY PLAN VIEW -->
+  <main id="view-plan" class="view">
+    <div id="plan-content" class="prose"></div>
+  </main>
+
+  <!-- TIPS VIEW -->
+  <main id="view-tips" class="view">
+    <div id="tips-content" class="prose"></div>
+  </main>
+
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
